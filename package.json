@@ -1,0 +1,30 @@
+{
+  "name": "ultra-db.js",
+  "version": "1.7.0",
+  "description": "UltraDB - AdvancedBSON Database Managment System, High-Speed, Ultra Security, Multi Functionalty, and EasyToUse!",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "database",
+    "ultradb",
+    "secured",
+    "fast-db",
+    "preformence",
+    "db",
+    "secure",
+    "security",
+    "data",
+    "fast",
+    "abilities",
+    "functional",
+    "tools",
+    "best"
+  ],
+  "engines": {
+    "node": ">=16.14.2"
+  },
+  "author": "iiPilix (SSC)",
+  "license": "SEE LICENSE IN \"LICENSE\""
+}
