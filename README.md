@@ -6,6 +6,15 @@ UltraDB is an asynchronous, local encrypted and compressed file based, simple da
 
 ---
 
+### Version 1.8.0 - (October 2025)
+**What's New:**
+- Major security improvement: new encrypted configuration files are now included. No longer allowing direct access without the valid exact security key.
+- Improved in-memory performance by +5% compared to the last version. (In a future v2 API version, the entire DBSM implementation will change to something better).
+- Improved startup validation and error messages for missing or corrupted configs.
+- Optimized performance during initialization and load operations.
+- Minor internal refactors for cleaner compatibility with upcoming UltraDB 2.x APIs.
+
+
 ## Features
 
 - **Asynchronous Operations:** Fully non-blocking API using async/await.
