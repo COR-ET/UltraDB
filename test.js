@@ -21,6 +21,7 @@ async function testUltraDB() {
     // Check if deletion works
     await db.delete("username");
 	
+	console.warn(`Successfully deleted data-set 'username'`);
 	
     const deletedValue = await db.get("username");
 	
