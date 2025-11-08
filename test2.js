@@ -228,7 +228,7 @@ async function testUltraDBAdvanced() {
 
     console.log("\n===== END OF SUMMARY =====\n");
 
-    console.log("✅ Advanced UltraDB performance test finished.");
+    console.log("[✅] Advanced UltraDB performance test finished.");
 }
 
 // Run
@@ -236,3 +236,4 @@ testUltraDBAdvanced().catch(err => {
     console.error("[UltraDB Advanced Test] Unexpected error:", err);
     process.exitCode = 1;
 });
+
